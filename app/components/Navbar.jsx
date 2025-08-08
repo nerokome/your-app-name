@@ -32,12 +32,15 @@ const Navbar = () => {
             <a href="#" className="hover:text-orange-600">Support</a>
           </div>
 
-          
-          <div className="hidden md:block">
+          <a href="/join">
+            <div className="hidden md:block">
             <button className="bg-orange-600 text-white px-4 py-2 rounded-full hover:bg-orange-700 text-sm font-medium flex items-center gap-1">
               Coming soon <span className="text-lg">+</span>
             </button>
           </div>
+
+          </a>
+          
 
          
           <div className="md:hidden">
