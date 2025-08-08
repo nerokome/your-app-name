@@ -14,7 +14,7 @@ const Bottom = () => {
         
         <div>
            <Image
-                        src="/Group 1.png"
+                        src="/white.png"
                         alt="UnrulyDAO Logo"
                         width={100}
                         height={40}
@@ -30,7 +30,7 @@ const Bottom = () => {
             <input
               type="email"
               placeholder="Your Email"
-              className="flex-1 px-4 py-2 rounded-l-md bg-transparent border border-gray-600 focus:outline-none focus:border-orange-500"
+              className="flex-1 px-4 py-2 rounded-3xl bg-transparent border border-gray-600 focus:outline-none focus:border-orange-500"
             />
             <button className="bg-orange-500 px-4 py-2 rounded-r-md text-white font-semibold hover:bg-orange-600 transition">
               Send

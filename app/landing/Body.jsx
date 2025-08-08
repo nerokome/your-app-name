@@ -39,9 +39,12 @@ const Body = () => {
             </p>
           </div>
           <div className="mt-6 flex gap-4">
-            <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition">
+            <a href='/join'>
+               <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition">
               Join the gang +
             </button>
+            </a>
+            
             <button className="border border-gray-500 text-white py-2 px-4 rounded-full hover:bg-gray-700 transition">
               Read about us +
             </button>

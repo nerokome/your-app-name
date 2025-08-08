@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <div className="relative min-h-screen bg-white text-center overflow-hidden p-2 sm:p-20">
       
-      <div className="bg-orange-600 w-full h-60 flex mb-8 p-4 sm:p-6 md:p-10 justify-center items-center">
-        <h1 className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold font-mono w-full">
+      <div className="bg-orange-600 w-full h-50 sm:h-60 flex mb-8 p-4 sm:p-6 md:p-10 justify-center items-center">
+        <h1 className="text-black text-5xl sm:text-6xl md:text-6xl lg:text-8xl font-bold sm:mt-0  mt-8  w-full">
           UNRULY DAO
         </h1>
       </div>

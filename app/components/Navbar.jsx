@@ -78,9 +78,13 @@ const Navbar = () => {
           <a href="#" className="hover:text-orange-600" onClick={() => setIsOpen(false)}>Markets</a>
           <a href="#" className="hover:text-orange-600" onClick={() => setIsOpen(false)}>Business</a>
           <a href="#" className="hover:text-orange-600" onClick={() => setIsOpen(false)}>Support</a>
+          <a href="/join">
           <button className="bg-orange-600 text-white px-4 py-2 rounded-full hover:bg-orange-700 text-sm font-medium">
             Coming soon +
           </button>
+          
+          </a>
+          
         </div>
       </div>
     </>
