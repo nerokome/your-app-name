@@ -19,7 +19,7 @@ const InfoCard = ({ title, description, icon }) => {
 
 const InfoCardPage = () => {
   return (
-    <div className=" h-[900px]  sm:h-[400px] bg-white flex  justify-center px-5 sm:px-20 py-8">
+    <div className=" h-[1300px]  sm:h-[400px] bg-white flex  justify-center px-5 sm:px-20 py-8">
       <div className="grid gap-6 md:grid-cols-3">
         <InfoCard 
           title="Trade Desk"

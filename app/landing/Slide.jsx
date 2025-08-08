@@ -3,9 +3,9 @@ import React from 'react'
 
 const Slide = () => {
   return (
-    <div>
+    <div className='overflow-y-hidden'>
     <>
-        <main className="h-[200px] sm:h-[500px] flex p-10 sm:p-20 bg-white overflow-hidden">
+        <main className="h-[250px] sm:h-[350px] flex items-center  bg-white overflow-hidden">
         <div className="relative w-full overflow-hidden whitespace-nowrap">
           <div className="scroll-animation flex  text-5xl sm:text-9xl font-extrabold">
             {/* Repeat the pattern: Solid → Outlined → Solid */}
