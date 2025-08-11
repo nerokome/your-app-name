@@ -22,9 +22,7 @@ const Bottom = () => {
                         className="h-10 w-auto"
                       />
           <p className="mt-4 text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis.
+            Sign up for updates and be part of the first Web3-powered music community that puts fans in control.
           </p>
           <div className="mt-6 flex">
             <input

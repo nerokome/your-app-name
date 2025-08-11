@@ -18,7 +18,7 @@ export default function Home() {
          <div className="bg-white">
             <Slide/>
          </div>
-         <InfoCardPage/>
+         
          <Bottom/>
         
       </div>

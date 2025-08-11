@@ -10,7 +10,7 @@ const Body = () => {
           <h2 className="text-2xl font-semibold">
             Fans on <span className="font-bold text-white">UNRULY DAO</span>
           </h2>
-          <p className="text-gray-400 mt-1">Lorem ipsum</p>
+         
           <div className="mt-6 flex gap-4">
             <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition">
               Join the gang +
@@ -21,7 +21,7 @@ const Body = () => {
           </div>
         </div>
         <p className="text-gray-400 max-w-md">
-          The UNRULY DAO platform is like nonething you ever seen. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...
+          Join our community-driven music ecosystem. Turn your playlists into profits. Support the artists you love and get rewarded when they win.
         </p>
       </div>
 
@@ -33,9 +33,9 @@ const Body = () => {
             <h2 className="text-2xl font-semibold">
               Fans on <span className="font-bold text-white">UNRULY DAO</span>
             </h2>
-            <p className="text-gray-400 mt-1">Lorem ipsum</p>
+            
             <p className="text-gray-400 mt-4">
-              The UNRULY DAO platform is like nonething you ever seen. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum...
+             The Unruly DAO platform is unlike anything you’ve ever seen. Here, fans aren’t just listeners — they’re stakeholders. Back your favorite artists, earn from their success, and shape the future of music.
             </p>
           </div>
           <div className="mt-6 flex gap-4">
