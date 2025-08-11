@@ -30,7 +30,7 @@ const Bottom = () => {
               placeholder="Your Email"
               className="flex-1 px-4 py-2 rounded-3xl bg-transparent border border-gray-600 focus:outline-none focus:border-orange-500"
             />
-            <button className="bg-orange-500 px-4 py-2 rounded-r-md text-white font-semibold hover:bg-orange-600 transition">
+            <button className="bg-orange-500 px-4 py-2 rounded-r-md text-white font-semibold hover:bg-orange-600 transition hover:cursor-pointer">
               Send
             </button>
           </div>

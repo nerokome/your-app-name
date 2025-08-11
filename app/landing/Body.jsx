@@ -12,10 +12,10 @@ const Body = () => {
           </h2>
          
           <div className="mt-6 flex gap-4">
-            <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition">
+            <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition hover:cursor-pointer">
               Join the gang +
             </button>
-            <button className="border border-gray-500 text-white py-2 px-4 rounded-full hover:bg-gray-700 transition">
+            <button className="border border-gray-500 text-white py-2 px-4 rounded-full hover:bg-gray-700 transition hover:cursor-pointer">
               Read about us +
             </button>
           </div>
@@ -40,12 +40,12 @@ const Body = () => {
           </div>
           <div className="mt-6 flex gap-4">
             <a href='/join'>
-               <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition">
+               <button className="bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition hover:cursor-pointer">
               Join the gang +
             </button>
             </a>
             
-            <button className="border border-gray-500 text-white py-2 px-4 rounded-full hover:bg-gray-700 transition">
+            <button className="border border-gray-500 text-white py-2 px-4 rounded-full hover:bg-gray-700 transition hover:cursor-pointer">
               Read about us +
             </button>
           </div>

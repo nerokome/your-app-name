@@ -37,21 +37,23 @@ const Hero = () => {
       {/* Text Section */}
       <section className="relative z-10 flex flex-col md:flex-row justify-between items-center px-6 md:px-20 py-5 bg-white pb-30">
         <div className="md:w-1/2 md:mb-0 md:text-left top-0">
-          <h1 className="text-4xl md:text-3xl lg:text-3xl text-black">
+          <h1 className="text-2xl md:text-3xl lg:text-3xl text-black font-bold">
             Bet on talent, Earn with community
           </h1>
         </div>
 
-        <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+        <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mt-5 sm:mt-20">
           <p className="text-gray-500 mb-6">
             Join the first Web3-powered label where fans don't just listen — they invest. Turn your support into real ownership and rewards.
           </p>
 
           <div className="flex space-x-4">
-            <button className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm hover:bg-orange-700 transition-all">
+            <a href='/join'>
+              <button className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm hover:bg-orange-700 transition-all hover:cursor-pointer">
               Join the gang +
             </button>
-            <button className="border border-gray-400 text-black px-6 py-2 rounded-full text-sm hover:bg-gray-100 transition-all">
+            </a>
+            <button className="border border-gray-400 text-black px-6 py-2 rounded-full text-sm hover:bg-gray-100 transition-all hover:cursor-pointer">
               Read about us +
             </button>
           </div>
