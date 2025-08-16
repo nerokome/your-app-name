@@ -8,7 +8,6 @@ const Navbar = () => {
 
   return (
     <>
-     
       <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-6 lg:px-8 py-4">
          
@@ -22,8 +21,6 @@ const Navbar = () => {
               className="h-10 w-auto"
             />
           </a>
-
-         
           <div className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
             <a href="#" className="hover:text-orange-600">Buy / Sell</a>
             <a href="#" className="hover:text-orange-600">Grow</a>
@@ -35,7 +32,7 @@ const Navbar = () => {
           <a href="/join">
             <div className="hidden md:block">
             <button className="bg-orange-600 text-white px-4 py-2 rounded-full hover:bg-orange-700 text-sm font-medium flex items-center gap-1">
-              Coming soon <span className="text-lg">+</span>
+                Whitepapper
             </button>
           </div>
 
@@ -80,7 +77,7 @@ const Navbar = () => {
           <a href="#" className="hover:text-orange-600" onClick={() => setIsOpen(false)}>Support</a>
           <a href="/join">
           <button className="bg-orange-600 text-white px-4 py-2 rounded-full hover:bg-orange-700 text-sm font-medium">
-            Coming soon +
+            whitepaper
           </button>
           
           </a>
